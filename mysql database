@@ -1,0 +1,8 @@
+create table data (
+ID int(11) AUTO_INCREMENT NOT NULL,
+Date char(255) NOT NULL,
+Time char(255) NOT NULL,
+Status char(3) NOT NULL,
+Position int(11) NOT NULL,
+constraint data_PK primary key (ID)
+);
